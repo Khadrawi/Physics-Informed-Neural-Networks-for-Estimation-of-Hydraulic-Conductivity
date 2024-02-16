@@ -36,7 +36,7 @@ depth_column = (2)
 moist_columns  = (4) 
 K_column  = (5) 
 hydrus_data = 'sandy_loam' # 'sandy_loam', 'loam', 'silt_loam' 'mixed'
-file_name = '../Hydrus data/' + hydrus_data
+file_name = '../data/' + hydrus_data
 time_delta = 0.012*24*3600 # time_step in hydrus = 0.012 days, converting it to seconds
 
 used_meas = {key:i for i, key in enumerate(all_sensors) if used_input[i]}
